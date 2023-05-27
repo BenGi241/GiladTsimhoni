@@ -252,7 +252,7 @@ def load_yolov7_and_process_each_frame(model, vid_name, enable_GPU, save_video, 
     object_counter.clear()
 
     if model == 'yolov7':
-        weights = 'yolov7/weights/yolov7.onnx'
+        weights = '/content/drive/MyDrive/Project/yolov7/runs/train/yolov7_custom_2/weights/best.pt'
     elif model == 'yolov7-tiny':
         weights = 'yolov7/weights/yolov7-tiny.onnx'
     else:
